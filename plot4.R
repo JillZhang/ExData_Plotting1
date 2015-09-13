@@ -16,4 +16,4 @@ with(power.data,{
   lines(Datetime,Sub_metering_3,col="blue")
   plot(Datetime,Global_reactive_power,type="l",ylab="Global_reactive_power", main="", xlab="datetime")
 })
-dev.off()
+dev.off() 
